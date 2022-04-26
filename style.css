@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.card {
+    margin: 0px auto;
+    padding: 25px;
+    border: 1px solid #0022ff;
+    border-radius: 40px 40px 40px 40px;
+}
+
+.card-img-top{
+    border: 1px solid green;
+    border-radius: 20px 20px 20px 20px;
+    width: 100px;
+    height: 100px;
+    box-shadow: 10px 10px 10px 0px pink;
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.btn {
+    border: 1px solid orange;
+    transition: 1s ease-in;
+}
+
+.btn-success {
+    background-color: red;
+}
+
+.btn:hover {
+    background-color: yellow;
+    transition: 2s ease-in-out;
+}
+
+.btn-lg{
+    padding: 10px;
+}
+
+.logo {
+    width: 99px;   
+    height: 99px;
+    font-size: 100px;
+    font-style: bold;
+    color: white;
+    background-color: blue;
+    font-family: sans-serif;
+    border-radius: 70px;
+}
